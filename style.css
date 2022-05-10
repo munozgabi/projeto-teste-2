@@ -20,9 +20,9 @@
 
 .content{
 
-  background-color: #ffff;
+  background-color: #ccc;
   width:46%;
-  height:auto;
+  height:1000px;
   float:left;
   padding:2%;
 
@@ -32,9 +32,25 @@
 
   background-color: #04AA6D;
   width:46%;
-  height:auto;
+  height:1000px;
   float:left;
   padding:2%;
+
+}
+
+.produto1{
+  background-color: #04AA6D;
+  width: 50%;
+  height: 1000px;
+  float: left;
+
+}
+
+.produto2{
+  background-color: #ccc;
+  width: 50%;
+  height: 1000px;
+  float: left;
 
 }
 
@@ -47,6 +63,13 @@
 
 }
 
+.carrinho{
+  background-color: #04AA6D;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
 .footer{
 
   background-color: #bfbfbf;
@@ -54,6 +77,14 @@
   height:50px;
   float:left;
 
+}
+
+.btn{
+  background-color: #ffffff;
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 20px;
 }
 
 @media only screen and (max-width:500px) {
